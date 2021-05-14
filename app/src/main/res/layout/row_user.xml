@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="5dp"
+
+    android:outlineAmbientShadowColor="@android:color/black"
+    android:outlineSpotShadowColor="@android:color/black"
+
+    app:cardUseCompatPadding="true"
+    app:cardCornerRadius="10dp"
+    app:cardElevation="3dp"
+    app:cardBackgroundColor="@android:color/white"
+    app:contentPadding="4dp">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id = "@+id/user_ic"
+            android:layout_width="112dp"
+            android:layout_height="112dp"
+            android:src = "@drawable/ic_prof" />
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="6dp">
+
+                <TextView
+                    android:id="@+id/user_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/fauna_one"
+                    android:text="User name"
+                    android:textAlignment="textStart"
+                    android:textColor="@android:color/black"
+                    android:textSize="24sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/user_email"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/fauna_one"
+                    android:text="User email"
+                    android:textAlignment="textStart"
+                    android:layout_marginBottom="7dp"
+                    android:textColor="@color/email_color"
+                    android:textSize="18sp" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <Button
+                        android:id="@+id/btn_request_accept"
+                        android:layout_width="wrap_content"
+                        android:layout_height="40dp"
+                        android:text="Accept"
+                        android:textSize="16sp"
+                        android:textAllCaps="false"
+                        android:background="@drawable/btn_sign_in"
+                        android:textColor="@android:color/white"
+                        android:visibility="invisible"/>
+
+                    <Button
+                        android:id="@+id/btn_request_decline"
+                        android:layout_width="wrap_content"
+                        android:layout_height="40dp"
+                        android:text="Decline"
+                        android:layout_marginStart="15dp"
+                        android:textSize="16sp"
+                        android:textAllCaps="false"
+                        android:background="@drawable/btn_register"
+                        android:textColor="@android:color/white"
+                        android:visibility="invisible"/>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="preloaded_fonts" translatable="false">
+        <item>@font/anton</item>
+        <item>@font/cinzel_decorative</item>
+        <item>@font/crete_round</item>
+        <item>@font/fauna_one</item>
+        <item>@font/khand_light</item>
+        <item>@font/khand_medium</item>
+        <item>@font/noto_serif</item>
+        <item>@font/pacifico</item>
+        <item>@font/righteous</item>
+        <item>@font/roboto_slab_thin</item>
+        <item>@font/satisfy</item>
+    </array>
+</resources>

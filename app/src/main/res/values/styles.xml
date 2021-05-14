@@ -1,0 +1,20 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="fontFamily">@font/fauna_one</item>
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/tabindicator</item>
+        <item name="colorAccent">@color/tabindicator1</item>
+        <item name="android:windowFullscreen">true</item>
+    </style>
+
+    <style name="UserTheme" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <item name="fontFamily">@font/fauna_one</item>
+        <item name="colorPrimary">@color/tabtext</item>
+        <item name="colorPrimaryDark">@color/tabindicator</item>
+        <item name="colorAccent">@color/tabindicator1</item>
+        <item name="android:windowFullscreen">true</item>
+    </style>
+
+</resources>

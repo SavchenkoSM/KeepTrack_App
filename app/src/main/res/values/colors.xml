@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+    <color name="colorPrimary">#fff</color>
+    <color name="colorPrimaryDark">#0288D1</color>
+
+    <color name="tabtext">#17988A</color>
+    <color name="tabindicator">#1BE7D0</color>
+    <color name="tabindicator1">#1FD2BE</color>
+
+    <color name="colorAccent">#FF5A69</color>
+    <color name="text_bottom">#c9a747</color>
+
+    <color name="ripple_effect_btn_sign_in">#17988A</color>
+    <color name="ripple_effect_btn_register">#AA313C</color>
+
+    <color name="btn_sign_in">#1BE7D0</color>
+    <color name="btn_sign_in_stroke">#1FD2BE</color>
+
+    <color name="btn_register">#FF5A69</color>
+    <color name="btn_register_stroke">#D73D4B</color>
+
+    <color name="ripple_effect_btn_users">#274E70</color>
+    <color name="ripple_effect_btn_devices">#274E70</color>
+
+    <color name="btn_users">#3991DF</color>
+    <color name="btn_users_stroke">#367FC1</color>
+
+    <color name="btn_devices">#3991DF</color>
+    <color name="btn_devices_stroke">#367FC1</color>
+
+    <color name="shadow">#0C9177</color>
+    <color name="email_color">#1FD2BE</color>
+
+    <color name="bg_profile">#17988A</color>
+    <color name="bg_profile_img">#FF5A69</color>
+
+    <color name="btn_accept">#01AC36</color>
+    <color name="btn_decline">#ED3826</color>
+
+    <color name="bg_all">#D1F2F3</color>
+
+</resources>
